@@ -1,10 +1,10 @@
-package Algorithms.SortingAlgorithms;
+package Algorithms.SortingAlgorithms.Selection_Sort;
 import java.util.*;
 
 public class RecursionSelectionSort {
 
     static int mini_index(int arr[], int i, int j){
-        if(i == j){
+        if(i == 1){
             return i;
         }
 

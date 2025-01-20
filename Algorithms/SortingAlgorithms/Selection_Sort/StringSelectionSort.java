@@ -1,4 +1,4 @@
-package Algorithms.SortingAlgorithms;
+package Algorithms.SortingAlgorithms.Selection_Sort;
 import java.util.*;
 
 public class StringSelectionSort {
