@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Easy;
 import java.util.*;
 
 public class FactorialRecur {
