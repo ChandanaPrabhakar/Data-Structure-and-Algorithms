@@ -17,7 +17,7 @@ public class ArrayAverage {
         for(int i = 0; i < size; i++){
             arr[i] = scan.nextInt();
         }
-        System.out.println("Average of arrays elements: "+ AverageArray(arr, size));
+        System.out.println("Average of array elements: "+ AverageArray(arr, size));
         scan.close();
     }
 }
