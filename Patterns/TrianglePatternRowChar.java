@@ -10,7 +10,7 @@ public class TrianglePatternRowChar {
             char ch = 'A';
             for(int j = i+1; j > 0; j--){
                 ch = (char)(ch + i);
-                System.out.print(ch);
+                System.out.print(ch+" ");
                 ch = (char)(ch - i);
             }
             System.out.println();
