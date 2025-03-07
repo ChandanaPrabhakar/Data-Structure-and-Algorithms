@@ -9,7 +9,7 @@ public class ClosestNumberToNDivisibleByM {
         if(Math.abs(number - n1) < Math.abs(number - n2)){
             return n1;
         }
-        return n1;
+        return n2;
     }
 
     public static void main(String[] args){
