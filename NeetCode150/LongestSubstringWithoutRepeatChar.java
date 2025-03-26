@@ -6,7 +6,7 @@ public class LongestSubstringWithoutRepeatChar {
         int left = 0, maximumLength = 0;
         Set<Character> entry = new HashSet<>();
         for(int right = 0; right < s.length(); right++){
-            if(entry.contains(s.charAt(right))){
+            while(entry.contains(s.charAt(right))){
                 entry.remove(s.charAt(left));
                 left++;
             }
