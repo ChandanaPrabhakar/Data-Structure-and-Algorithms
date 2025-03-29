@@ -23,7 +23,7 @@ public class JumpGameII {
         for(int i = 0; i < size; i++){
             array[i] = scan.nextInt();
         }
-        System.out.println("Best time to buy and sell stocks: "+jumpGameII(array));
+        System.out.println("Jump Game II: "+jumpGameII(array));
         scan.close();
     }
 }
