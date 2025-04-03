@@ -24,7 +24,7 @@ public class LongestSubstringWithExactlyKDistinct {
         String s = scan.nextLine();
         System.out.println("Enter value of K: ");
         int k = scan.nextInt();
-        System.out.println("Longest substring with at most `K` distinct characters: ");
+        System.out.println("Longest substring with exactly `K` distinct characters: ");
         int result = longestSubstringExactlyKDistinct(s, k);
         System.out.println(result);
         scan.close();
